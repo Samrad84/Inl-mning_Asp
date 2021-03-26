@@ -11,6 +11,6 @@ namespace Inlämning_Asp.Models
         { }
 
         public DbSet<Event> Events { get; set; }
-        public DbSet<Join> joins { get; set; }
+        public DbSet<Join> Joins { get; set; }
     }
 }

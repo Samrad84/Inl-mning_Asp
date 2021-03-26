@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Inlämning_Asp.Models;
 
 namespace Inlämning_Asp.Models
 {

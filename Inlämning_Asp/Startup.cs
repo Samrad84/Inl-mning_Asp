@@ -1,13 +1,17 @@
+using Inlämning_Asp.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+
 
 
 namespace Inlämning_Asp
@@ -25,7 +29,9 @@ namespace Inlämning_Asp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            var conn
+            //var connection = @"server=(localdb)\mssqllocaldb;Database=Inlämning_Asp;Trusted_Connection=True;ConnectRetryCount=0";
+            //services.AddDbContext<EventContent>(options => options.UseSqlServer(connection));
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
