@@ -13,12 +13,16 @@ namespace Inlämning_Asp.Models
 
         public string EventName { get; set; }
 
-        public IFormFile Photo { get; set; }
+        public string Place { get; set; }
+
+        public string Description { get; set; }
+
+        public string Photo { get; set; }
 
         public DateTime Date { get; set; }
 
        public string Url { get; set; }
 
-        public ICollection<Join> Joins { get; set; }
+        public List<Buyer> Buyers { get; set; }
     }
 }

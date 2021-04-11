@@ -6,15 +6,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+using Inlämning_Asp.Data;
 
 
 
 namespace Inlämning_Asp
+
 {
     public class Startup
     {
@@ -28,10 +25,10 @@ namespace Inlämning_Asp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
-            //var connection = @"server=(localdb)\mssqllocaldb;Database=Inlämning_Asp;Trusted_Connection=True;ConnectRetryCount=0";
-            //services.AddDbContext<EventContent>(options => options.UseSqlServer(connection));
+            services.AddRazorPages();
 
+            services.AddDbContext<EventDbContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("EventDbContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,10 +40,11 @@ namespace Inlämning_Asp
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
+                app.UseExceptionHandler("/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -56,9 +54,7 @@ namespace Inlämning_Asp
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }

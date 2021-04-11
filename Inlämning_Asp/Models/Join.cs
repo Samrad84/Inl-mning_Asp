@@ -10,9 +10,9 @@ namespace Inlämning_Asp.Models
     {
 
         public int JoinId { get; set; }
-        public string Title { get; set; }
-        public string Content { get; set; }
-        public int EventId { get; set; }
         public Event Event { get; set; }
+
+        public Buyer Buyer { get; set; }
+
     }
 }
