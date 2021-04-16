@@ -7,7 +7,7 @@ using Inlämning_Asp.Data;
 
 namespace Inlämning_Asp.Pages
 {
-    [Authorize(Roles = "superadmin,admin,employee")]
+    [Authorize(Roles = "user,admin,organizer")]
     public class WelcomeModel : PageModel
     {
         public string UserId;

@@ -14,7 +14,7 @@ namespace Inlämning_Asp.Pages
   
 {
 
-    [Authorize(Roles = "superadmin,admin,employee")]
+    [Authorize(Roles = "user")]
     public class EventsModel : PageModel
     {
         private readonly EventDbContext _context;

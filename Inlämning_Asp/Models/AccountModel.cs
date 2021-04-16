@@ -15,21 +15,21 @@ namespace Inlämning_Asp.Models
             accounts = new List<Account>() {
                 new Account
                 {
-                    Username = "acc1",
-                    Password = "123",
-                    Roles = new string[]{ "superadmin", "admin", "employee" }
+                    Username = "User",
+                    Password = "user",
+                    Roles = new string[]{ "user" }
                 },
                 new Account
                 {
-                    Username = "acc2",
-                    Password = "123",
-                    Roles = new string[]{ "admin", "employee" }
+                    Username = "Admin",
+                    Password = "admin",
+                    Roles = new string[]{ "admin" }
                 },
                 new Account
                 {
-                    Username = "acc3",
-                    Password = "123",
-                    Roles = new string[]{ "employee" }
+                    Username = "Organizer",
+                    Password = "org",
+                    Roles = new string[]{ "organizer" }
                 }
             };
         }

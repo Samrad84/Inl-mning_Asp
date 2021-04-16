@@ -329,3 +329,4 @@ C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0
 C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0\Razor\Pages\AccessDenied.cshtml.g.cs
 C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
 C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0\Razor\Pages\Welcome.cshtml.g.cs
+C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0\Razor\Pages\Add_Event.cshtml.g.cs

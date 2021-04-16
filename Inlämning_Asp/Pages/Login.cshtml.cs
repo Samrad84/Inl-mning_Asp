@@ -23,10 +23,16 @@ namespace Inlämning_Asp.Pages
                 Msg = "Invalid";
                 return Page();
             }
+            else if (username == "User")
+            {
+                securityManager.SignIn(HttpContext, accountModel.find(username));
+                return RedirectToPage("Events");
+            }
             else
             {
                 securityManager.SignIn(HttpContext, accountModel.find(username));
-                return RedirectToPage("Welcome");
+                return RedirectToPage("Add_Event");
+                    
             }
         }
     }
