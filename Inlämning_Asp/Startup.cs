@@ -67,7 +67,7 @@ namespace Inlämning_Asp
 
             app.UseAuthorization();
 
-            app.UseMvc();
+         
 
             app.UseEndpoints(endpoints =>
             {

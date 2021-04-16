@@ -326,3 +326,6 @@ C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0
 C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0\ref\Inlämning_Asp.dll
 C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0\Inlämning_Asp.pdb
 C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0\Inlämning_Asp.genruntimeconfig.cache
+C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0\Razor\Pages\AccessDenied.cshtml.g.cs
+C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0\Razor\Pages\Login.cshtml.g.cs
+C:\Users\A.M\Source\Repos\Samrad84\Inl-mning_Asp\Inlämning_Asp\obj\Debug\net5.0\Razor\Pages\Welcome.cshtml.g.cs

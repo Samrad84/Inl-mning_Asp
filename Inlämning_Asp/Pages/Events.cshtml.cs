@@ -7,9 +7,14 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using Inlämning_Asp.Data;
 using Inlämning_Asp.Models;
+using Microsoft.AspNetCore.Authorization;
+using System.Security.Claims;
 
 namespace Inlämning_Asp.Pages
+  
 {
+
+    [Authorize(Roles = "superadmin,admin,employee")]
     public class EventsModel : PageModel
     {
         private readonly EventDbContext _context;
