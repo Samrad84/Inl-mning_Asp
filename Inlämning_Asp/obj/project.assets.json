@@ -10331,11 +10331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A.M\\source\\repos\\Inlämning_Asp\\Inlämning_Asp\\Inlämning_Asp.csproj",
+      "projectUniqueName": "C:\\Users\\A.M\\Source\\Repos\\Samrad84\\Inl-mning_Asp\\Inlämning_Asp\\Inlämning_Asp.csproj",
       "projectName": "Inlämning_Asp",
-      "projectPath": "C:\\Users\\A.M\\source\\repos\\Inlämning_Asp\\Inlämning_Asp\\Inlämning_Asp.csproj",
+      "projectPath": "C:\\Users\\A.M\\Source\\Repos\\Samrad84\\Inl-mning_Asp\\Inlämning_Asp\\Inlämning_Asp.csproj",
       "packagesPath": "C:\\Users\\A.M\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A.M\\source\\repos\\Inlämning_Asp\\Inlämning_Asp\\obj\\",
+      "outputPath": "C:\\Users\\A.M\\Source\\Repos\\Samrad84\\Inl-mning_Asp\\Inlämning_Asp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
